@@ -41,7 +41,7 @@ namespace SPIRI_SMO
         }
         public static double get_p_otkaza(double[] Pi, int n_kanalov)
         {
-            return Pi[(int)n_kanalov];
+            return Pi[n_kanalov];
         }
         public static double get_p_obslujivania(double p_otkaza)
         {
